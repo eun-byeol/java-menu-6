@@ -25,4 +25,8 @@ public class Coaches {
             throw new IllegalArgumentException(DUPLICATED_COACH_NAMES.getMessage());
         }
     }
+
+    public List<Coach> getCoaches() {
+        return coaches;
+    }
 }
